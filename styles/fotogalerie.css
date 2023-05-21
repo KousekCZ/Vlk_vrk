@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nadpis{
+    text-align: center;
+    font-style: italic ;
+    padding: 25px;
+    color: rgb(255, 0, 106);
+}
+.podNadpis{
+        width: 100%;
+}
+.podNadpis ul{
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}  
+.podNadpis a{
+    color:rgb(255, 0, 191);
+    text-decoration: none;
+    display: block;
+    padding: 10px 27px;
+    font-weight:900;
+    font-size: larger;
+} 
+/*Linie pod nadpisem*/
+.line {
+    border: 1px dashed rgb(255, 0, 106);
+}
+/*tlačítka "<" ">"*/
+a:hover {
+    color: cyan;
+}  
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.round {
+    color: black;
+    border-radius: 50%;
+}
+/*pozadí*/
+body {
+    background-image: url("images/vlk_Domu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fotka{
+    margin: 20px;
+    color: blueviolet;
+    text-align: center;
+}
+/*pohyb po stránce*/
+.klik{
+    color: blueviolet;
+}
+.menu{
+    text-align: center;
+}
+h5 a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+h5 a:hover {
+    color: cyan;
+}
+/*nahoru*/
+h1 a:visited{
+    color: white;
+}
+h1 a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+.up{
+    text-align: right;
+    margin-right: 50px;
+}
+/*footer*/
+.down p{
+    color: rgb(0, 34, 169);
+    text-align: center;
+    height: 30px;
+}
+.down{
+    padding-top: 7px;
+    bottom: 0;
+    width: 100%;
+}

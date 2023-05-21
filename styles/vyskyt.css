@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nadpis{
+    text-align: center;
+    font-style: italic ;
+    padding: 25px;
+    color: rgb(255, 0, 106);
+}
+.podNadpis{
+        width: 100%;
+}
+.podNadpis ul{
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.podNadpis a{
+    color:rgb(251, 255, 0);
+    text-decoration: none;
+    display: block;
+    padding: 10px 27px;
+    font-weight:900;
+    font-size: larger;
+} 
+/*tlačítka "<" ">"*/
+a:hover {
+    color: cyan;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.round {
+    color: black;
+    border-radius: 50%;
+}
+/*Linie pod nadpisem*/
+.line {
+    border: 1px dashed rgb(255, 0, 106);
+}
+/*pozadí*/
+body {
+    background-image: url("images/vlk_Domu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*video + text*/
+.container{
+    padding-bottom: 3%;
+    margin: 20px;
+}
+.container video{
+    margin-top: -30px;
+    position: absolute;
+}
+.container-one{
+    color: rgb(251, 255, 0);
+    text-align: center;
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 35px;
+    margin-right: 15px;
+    display: block;
+}
+/*mapa + text*/
+.map{
+    color: rgb(251, 255, 0);
+    padding-bottom: 3%;
+    margin: 20px;
+}
+.map iframe{
+    margin-top: -30px;
+    position: absolute;
+}
+.map-one{
+    color: rgb(251, 255, 0);
+    text-align: right;
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 35px;
+    margin-right: 15px;
+    display: block;
+}
+/*footer*/
+.down p{
+    color: rgb(251, 255, 0);
+    text-align: center;
+    height: 30px;
+}
+.down{
+    padding-top: 7px;
+    bottom: 0;
+    width: 100%;
+}
